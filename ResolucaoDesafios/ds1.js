@@ -10,13 +10,20 @@ run(2, 'i')
 ['i', 'i']
 
  */
+/*
+Explicação da Resolução:
+A função recebe dois parametros(qtdPosicoes, elemento) qtdPosicoes irá determinar o comprimento do nosso array e elemento será o valor contido
+em cada indice do array.
+Inserimos o valor no array através indice e como temos a quantidade de  posições do array definido(passado no parametro) iremos usar o laço for para realizar o loop pelo indice e ir inserindo os valores em cada posição do array.
+
+*/
 
 function criarArray(qtdPosicoes,elemento){
     let array = []
-    for(let i = 0; i< qtdPosicoes;i++){
+    for(let i = 0; i< qtdPosicoes;i++){ 
         array[i] = elemento
     }
     console.log(array)
 }
 
-criarArray(5,'i')
+criarArray(2,'i')

@@ -12,6 +12,13 @@ run([1, 2, 3, 4],[1, 2, 3, 5])
 true
 false
 
+*/
+
+/*
+Resolução:
+Primeiro será comparado se os arrays possuem tamanhos diferente, caso seja verdade os array não são iguais e a função retorna falso
+se forem de mesmo comprimento um laço for percorrerá os valores dos dois arrays percorrendo ambos pelo memso indice e verificando se há algum
+valor diferente do outro retornando um False, caso contrario se não houver nenhum valor diferente a função retornará True
 
 */
 

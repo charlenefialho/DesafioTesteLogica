@@ -10,7 +10,7 @@ run([1, 2, 3, 4, 5], 2)
 
 // Resultado do método
 [[1, 2], [3, 4], [5]]
-
+OBS: não  resolvi :(
 
 */
 
@@ -18,9 +18,6 @@ run([1, 2, 3, 4, 5], 2)
 function dividirArray(recebeArray,quantidade){
     let arrayNovo = []
     let subArray = []
-
-    
-
 }
 
-dividirArray([1, 2, 3, 4, 5], 2)
+console.log(dividirArray([1, 2, 3, 4, 5], 2))

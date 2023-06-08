@@ -12,6 +12,13 @@ run([["c",2],["d",4]])
 // Resultado do método
 { c: 2, d: 4 }
 
+ /*
+ OBS: eu tive que instanciar um array dentro, pois meu vsCode estava bugado e não reconhecia o ".lenght"
+ Resolução:
+ objeto é composto de chave: valor , que em array seria array de subArrays com 2 posições fixas 
+ e chave fica sempre no indice 0 e o valor no indice 1 ,assim o que muda de indice é o indice do array externo
+ assim basta criar um objeto e fazer o loop pelo indice do array externo e para acessar a chave do sub array basta indicar que está no indice [0] e o valor no indice[1].
+ 
  */
 
 function converterArrayEmObjeto(recebeArray){

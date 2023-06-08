@@ -12,6 +12,14 @@ run([1, '', undefined, 0, 4, 'ola'])
 
  */
 
+/*
+OBS: eu tive que instanciar um array dentro, pois meu vsCode estava bugado e não reconhecia o ".lenght"
+Explicação da resolução:
+    A função recebe um array e já definido no enunciado o que de ser dercartado no array. e para isso criares um array chamdo "arrayLimpo" onde 
+    armazenará o valores do array "Limpo".
+    Para a filtragem utilizaremos uo laço for que passará por todo o array recebido no parametro verificando com um if se o valor verificado é diferente dos itens desnecessário, caso seja verdadeiro a condição esse valor irá ser inserido no arrayLimpo
+*/
+
 function limparArray(array){
     let recebeArray = new Array()
     recebeArray = array

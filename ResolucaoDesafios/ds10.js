@@ -13,6 +13,14 @@ run([6, 8], [8, 9])
 
 */
 
+/*
+ Resolução:
+ Será recebido dois array para comparação de valores e os valores em comum será adicionado em um novo array chamado
+ "valorComum" será feito dois loops para comparar o todos os valores do array1 com todos os valores do array2 , fora do loop que percorre
+ o array2 há uma variavel que nos sinalizará caso haja valor em comum , ela começa com false e caso o a condição que compara os valores seja verdadeira essa variavel muda para True e o loop irá parar c caso seja uma condiçao falsa o aço continua comparando os valores e a variavel igual se mantém com False ,fora desse loop há outra condição que verifica se a variavel igual(tipo boolean) é verdadeira caso seja o valor sera adicionado ao array de valor comum
+
+*/
+
 
 function encontrarValoresComuns(array1, array2) {
     let valorComum = [];
@@ -36,10 +44,9 @@ function encontrarValoresComuns(array1, array2) {
   
     return valorComum;
   }
-  
-  // Exemplo de uso:
-  const array1 = [6, 8];
-  const array2 = [8, 9];
+
+  let array1 = [6, 8];
+  let array2 = [8, 9];
   
   console.log(encontrarValoresComuns(array1, array2));
  

@@ -9,7 +9,11 @@ run([1, 2, 3, 4])
 // Resultado do método
 [4, 3, 2, 1]
 
-Resolução:
+
+ */
+
+/*
+Explicação da Resolução
 let arrayExemplo = [1, 2 ,3]
 a = arrayExemplo[0]
 b = arrayExemplo[1]
@@ -26,9 +30,9 @@ valorA = a
 a = c
 c = valorA
 
+O laço for deve ser executado até a metade do array , pois se o laço for percorrer o array todo o array irá inverter e depois desinverter
 
- */
-
+*/
 
 function inverterArray(array){
     
